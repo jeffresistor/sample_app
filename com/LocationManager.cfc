@@ -18,4 +18,8 @@
 
 </cffunction>
 	
+<cffunction name="test" access="public" returntype="any">
+
+</cffunction>
+	
 </cfcomponent>
