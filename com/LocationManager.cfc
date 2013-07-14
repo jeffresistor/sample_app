@@ -1,6 +1,5 @@
 <cfcomponent displayname="LocationManager" output="false">
 
-
 <cffunction name="getStates" access="public" output="false" returntype="Query">
   
   <cfscript>
