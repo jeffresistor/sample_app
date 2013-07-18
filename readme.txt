@@ -17,6 +17,7 @@ Create Database:
 Create Datasource Connection:
 -----------------------------
 - log into your ColdFusion server and create a datasource connection on the ColdFusion server using the sample_app MySQL user credentials established when creating the database
+	- type: MySQL
 	- datasource name: sample_app
 	- host/server: localhost
 	- user: sa_cf_user
