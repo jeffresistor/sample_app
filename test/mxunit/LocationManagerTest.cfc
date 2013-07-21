@@ -46,7 +46,7 @@
 		<!--- if you want to "see" your data -- including complex variables, you can pass them to debug() and they will be available to you either in the HTML output or in the Eclipse plugin via rightclick- "Open TestCase results in browser" --->
       	<cfset debug(result)>      
 	  	<!--- make some assertion based on the result of exercising the component --->
-      	<cfset assertEquals(expected,result,"result should've been [#expected#], but was [#result#]")>		
+      	<cfset assertEquals(expected,result,"result should've been '#expected#', but was '#result#']")>		
 	</cffunction>
 	
 	<cffunction name="verifyStateRSFields" returntype="void" access="public" hint="this test verifies that the columns returned by the state list query matches what the code is expecting.">		
@@ -58,7 +58,7 @@
 		<!--- if you want to "see" your data -- including complex variables, you can pass them to debug() and they will be available to you either in the HTML output or in the Eclipse plugin via rightclick- "Open TestCase results in browser" --->
       	<cfset debug(result)>      
 	  	<!--- make some assertion based on the result of exercising the component --->
-      	<cfset assertEquals(expected,result,"result should've been [#expected#], but was [#result#]")>		
+      	<cfset assertEquals(expected,result,"result should've been #expected#, but was #result#")>		
 	</cffunction>
    
  <cffunction name="somePrivateFunction" access="private">
