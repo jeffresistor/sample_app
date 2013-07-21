@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="127.0.0.1" id="0" name="testresults" package="mxunit" tests="3" time="1.662" timestamp="07/20/13 5:01:31 PM">
+    <properties>
+      <property name="PRODUCTLEVEL" value="os" />
+      <property name="PRODUCTVERSION" value="10,0,0,0" />
+      <property name="SUPPORTEDLOCALES" value="malay (malaysia),arabic (qatar),icelandic (iceland),finnish (finland),polish,english (malta),italian (switzerland),dutch (belgium),arabic (saudi arabia),arabic (iraq),spanish (puerto rico),spanish (chile),finnish,german (austria),danish,english (united kingdom),spanish (panama),serbian,arabic (yemen),macedonian (macedonia),macedonian,english (canada),vietnamese (vietnam),dutch (netherlands),spanish (united states),chinese (china),spanish (honduras),english (united states),french,thai,arabic,arabic (morocco),latvian,german,indonesian (indonesia),croatian,english (south africa),korean (south korea),arabic (tunisia),indonesian,japanese,serbian (serbia),belarusian (belarus),chinese (taiwan),arabic (sudan),portuguese,icelandic,ja_JP_JP_#u-ca-japanese,spanish (bolivia),arabic (algeria),malay,spanish (argentina),arabic (united arab emirates),french (canada),slovenian,spanish,lithuanian (lithuania),sr_ME_#Latn,arabic (syria),russian (russia),french (belgium),spanish (spain),bulgarian,hebrew (israel),swedish,english,hebrew,danish (denmark),spanish (costa rica),chinese (hong kong),chinese,catalan (spain),thai (thailand),ukrainian (ukraine),spanish (dominican republic),spanish (venezuela),polish (poland),arabic (libya),arabic (jordan),italian,ukrainian,hungarian (hungary),irish,spanish (guatemala),spanish (paraguay),bulgarian (bulgaria),croatian (croatia),sr_BA_#Latn,romanian (romania),french (luxembourg),norwegian,lithuanian,english (singapore),spanish (ecuador),serbian (bosnia and herzegovina),spanish (nicaragua),slovak,russian,maltese,spanish (el salvador),dutch,hindi (india),estonian,greek (greece),slovenian (slovenia),italian (italy),japanese (japan),german (luxembourg),french (switzerland),maltese (malta),arabic (bahrain),albanian,vietnamese,serbian (montenegro),portuguese (brazil),norwegian (norway),greek,german (switzerland),chinese (singapore),arabic (kuwait),arabic (egypt),irish (ireland),spanish (peru),czech (czech republic),turkish (turkey),czech,spanish (uruguay),english (ireland),english (india),arabic (oman),serbian (serbia and montenegro),catalan,belarusian,serbian (latin),korean,albanian (albania),portuguese (portugal),latvian (latvia),sr_RS_#Latn,slovak (slovakia),spanish (mexico),english (australia),no_NO_NY,english (new zealand),swedish (sweden),romanian,arabic (lebanon),german (germany),th_TH_TH_#u-nu-thai,turkish,spanish (colombia),english (philippines),estonian (estonia),greek (cyprus),hungarian,french (france)" />
+      <property name="EXPIRATION" value="{ts &apos;2037-12-31 18:00:00&apos;}" />
+      <property name="ROOTDIR" value="C:\railo\webapps\www" />
+      <property name="INSTALLKIT" value="" />
+      <property name="SERIALNUMBER" value="0" />
+      <property name="APPSERVER" value="" />
+      <property name="PRODUCTNAME" value="Railo" />
+      <property name="ARCHMODEL" value="64" />
+      <property name="ADDITIONALINFORMATION" value="" />
+      <property name="ARCH" value="amd64" />
+      <property name="NAME" value="Windows 8" />
+      <property name="BUILDNUMBER" value="" />
+      <property name="VERSION" value="6.2" />
+      <property name="AUTH_PASSWORD" value="" />
+      <property name="AUTH_TYPE" value="" />
+      <property name="AUTH_USER" value="" />
+      <property name="CERT_COOKIE" value="" />
+      <property name="CERT_FLAGS" value="" />
+      <property name="CERT_ISSUER" value="" />
+      <property name="CERT_KEYSIZE" value="" />
+      <property name="CERT_SECRETKEYSIZE" value="" />
+      <property name="CERT_SERIALNUMBER" value="" />
+      <property name="CERT_SERVER_ISSUER" value="" />
+      <property name="CERT_SERVER_SUBJECT" value="" />
+      <property name="CERT_SUBJECT" value="" />
+      <property name="CF_TEMPLATE_PATH" value="C:\railo\webapps\www\mxunit\runner\HttpAntRunner.cfc" />
+      <property name="CONTENT_LENGTH" value="" />
+      <property name="CONTENT_TYPE" value="" />
+      <property name="GATEWAY_INTERFACE" value="" />
+      <property name="HTTP_ACCEPT" value="" />
+      <property name="HTTP_ACCEPT_ENCODING" value="" />
+      <property name="HTTP_ACCEPT_LANGUAGE" value="" />
+      <property name="HTTP_CONNECTION" value="" />
+      <property name="HTTP_COOKIE" value="" />
+      <property name="HTTP_HOST" value="localhost:8888" />
+      <property name="HTTP_USER_AGENT" value="Jakarta Commons-HttpClient/3.1" />
+      <property name="HTTP_REFERER" value="" />
+      <property name="HTTPS" value="" />
+      <property name="HTTPS_KEYSIZE" value="" />
+      <property name="HTTPS_SECRETKEYSIZE" value="" />
+      <property name="HTTPS_SERVER_ISSUER" value="" />
+      <property name="HTTPS_SERVER_SUBJECT" value="" />
+      <property name="PATH_INFO" value="" />
+      <property name="PATH_TRANSLATED" value="C:\railo\webapps\www\mxunit\runner\HttpAntRunner.cfc" />
+      <property name="QUERY_STRING" value="method=run&amp;type=dir&amp;value=C:%5Crailo%5Cwebapps%5Cwww%5Csample_app%5Ctest%5Cmxunit&amp;recurse=false&amp;excludes=null&amp;packageName=mxunit.testresults&amp;componentPath=sample_app.test.mxunit" />
+      <property name="REMOTE_ADDR" value="127.0.0.1" />
+      <property name="REMOTE_HOST" value="127.0.0.1" />
+      <property name="REMOTE_USER" value="" />
+      <property name="REQUEST_METHOD" value="GET" />
+      <property name="SCRIPT_NAME" value="/mxunit/runner/HttpAntRunner.cfc" />
+      <property name="SERVER_NAME" value="localhost" />
+      <property name="SERVER_PORT" value="8888" />
+      <property name="SERVER_PORT_SECURE" value="0" />
+      <property name="SERVER_PROTOCOL" value="HTTP/1.1" />
+      <property name="SERVER_SOFTWARE" value="" />
+      <property name="WEB_SERVER_API" value="" />
+      <property name="CONTEXT_PATH" value="" />
+      <property name="LOCAL_ADDR" value="192.168.1.10" />
+      <property name="LOCAL_HOST" value="Jeff_Ultrabook" />
+      <property name="MXUNIT_SUMMARY" value="3,0,0,1662" />
+      <property name="CFTOKEN" value="0" />
+      <property name="CFID" value="941b9112-6220-409a-bc2d-e9e1fbcf9431" />
+      <property name="DSN" value="sample_app" />
+      <property name="__MXUNITINHERITANCETREE__" value="" />
+      <property name="LMAN" value="Complex Data Type...Not Displaying" />
+      <property name="APPLICATIONNAME" value="RAILO_WORLD" />
+    </properties>
+    <testcase classname="sample_app.test.mxunit.LocationManagerTest" name="verify51States" time="1.395" />
+    <testcase classname="sample_app.test.mxunit.LocationManagerTest" name="verifyStateNames" time="0.019" />
+    <testcase classname="sample_app.test.mxunit.LocationManagerTest" name="verifyStateRSFields" time="0.003" />
+  </testsuite>
+</testsuites>
