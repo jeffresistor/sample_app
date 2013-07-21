@@ -2,7 +2,7 @@
  
 <mkdir dir="test/testresults" />
  
-<target name="runAllTests" depends="runtests,junitreport" description="Main target for running the tests." />
+<target name="runAllTests" depends="runtests" description="Main target for running the tests." /><!--,junitreport-->
  
 <target name="runtests" description="Make output directories and run the MXUnit task">
 <taskdef name="mxunittask" classname="org.mxunit.ant.MXUnitAntTask"  classpath="lib/mxunit-ant.jar" />
@@ -16,7 +16,7 @@
 </mxunittask>
 </target>
  
-	
+<!--	
 <target name="junitreport" description="Create a report for the rest result">
 <mkdir dir="test/junithtml"/>
 <junitreport todir="test/junithtml">
@@ -26,5 +26,5 @@
 <report format="frames" todir="test/junithtml" styledir="../mxunit/ant/xsl"/>
 </junitreport>
 </target>
- 
+ -->
 </project>
