@@ -34,7 +34,7 @@
 	  <!--- if you want to "see" your data -- including complex variables, you can pass them to debug() and they will be available to you either in the HTML output or in the Eclipse plugin via rightclick- "Open TestCase results in browser" --->
       <cfset debug(result)>      
 	  <!--- make some assertion based on the result of exercising the component --->
-      <cfset assertEquals(expected,result,"result should've been 51, but was #result#")>    
+      <cfset assertEquals(expected,result,"result should've been #expected#, but was #result#")>    
 	</cffunction>
 	
 	<cffunction name="verifyStateNames" returntype="void" access="public" hint="this test verifies that the list of states returned matches the correct list of 50 states + DC.">		
