@@ -9,10 +9,10 @@
   querySetCell(rsStates, 'state_name', 'Virginia');
   </cfscript>
 
-  <cfquery name="rsStates" datasource="#request.dsn#">
+  <!--- <cfquery name="rsStates" datasource="#request.dsn#">
   select * from tbl_state
   order by state_name
-  </cfquery>
+  </cfquery> --->
 
   <cfreturn rsStates />
 

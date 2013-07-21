@@ -1,30 +1,25 @@
-<project name="MXUnitTask" basedir="." default="runAllTests">
+<project name="MXUnitTask" basedir="." default="runtests">
  
 <mkdir dir="test/testresults" />
- 
-<target name="runAllTests" depends="runtests" description="Main target for running the tests." /><!--,junitreport-->
- 
+  
 <target name="runtests" description="Make output directories and run the MXUnit task">
-<taskdef name="mxunittask" classname="org.mxunit.ant.MXUnitAntTask"  classpath="lib/mxunit-ant.jar" />
-<mxunittask 
-	server="localhost" 
-	port="8888"
-	outputdir="test/testresults"
-	verbose="true" 
->
-	<directory path="C:\railo\webapps\www\sample_app\test\mxunit" recurse="false" componentPath="sample_app.test.mxunit" />
-</mxunittask>
+
+	<taskdef name="mxunittask" classname="org.mxunit.ant.MXUnitAntTask"  classpath="lib/mxunit-ant.jar" />
+	
+	<mxunittask 
+		server="localhost" 
+		port="8888"
+		outputdir="test/testresults"
+		verbose="true" 
+		failureproperty="testsfailed"
+	>
+	
+		<directory path="C:\railo\webapps\www\sample_app\test\mxunit" recurse="false" componentPath="sample_app.test.mxunit" />
+
+	</mxunittask>
+	
+	<fail if="testsfailed" message="Failing the build because one or more tests failed"/>
+
 </target>
  
-<!--	
-<target name="junitreport" description="Create a report for the rest result">
-<mkdir dir="test/junithtml"/>
-<junitreport todir="test/junithtml">
-<fileset dir="test/testresults">
-<include name="*.xml"/>
-</fileset>
-<report format="frames" todir="test/junithtml" styledir="../mxunit/ant/xsl"/>
-</junitreport>
-</target>
- -->
 </project>
