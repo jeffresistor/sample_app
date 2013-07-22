@@ -7,7 +7,7 @@ Select one of the #numStates# US States:
 
 <cfif populateMenu>
 <select name="state">
-<cfloop query="#request.rsStates#"><option value="state_code">#state_name#</option></cfloop>	
+<cfoutput query="request.rsStates"><option value="state_code">#state_name#</option></cfoutput>	
 </select>
 </cfif>	
 
