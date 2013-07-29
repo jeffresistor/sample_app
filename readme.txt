@@ -5,6 +5,7 @@ Install servers and unit testing platform:
 - install a CFML engine
 - install MXUnit
 - install MySQL 
+- install Selenium IDE
 
 Create Database:
 ----------------
@@ -28,8 +29,14 @@ Verify Application Runs:
 - open a browser window and navigate to the sample application at http://localhost:8888/sample_app/web/
 	- You should see an HTML dropdown menu containing a list of 50 US states + DC
 	
-Verify Tests Run:
+Verify Unit Tests Run:
 -----------------	
 - browse to the MXUnit test runner at http://localhost:8888/mxunit/runner/index.cfm
 - specify the path to /web/com/Test.cfc in the 'TestCase, TestSuite or Directory' field (sample_app.web.com.Test) and click the 'Run Tests' button
 - the results should show 3 tests have been executed, all of which pass 
+
+Verify Selenium Tests Run:
+--------------------------
+- open the Selenium IDE and open /test/selenium/TestSuite.html
+- click the 'play' button 
+- the results should show 2 test have been executed, both of which pass
