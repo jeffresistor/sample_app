@@ -9,6 +9,11 @@ To execute from Windows Command Shell:
 - cd to /sample_app/database/ directory
 - log into mysql using:  mysql -u root -p
 - execute the script using:  \. create_database.sql;
+
+Example Shell Command to create database as a Jenkins build step:
+	cd C:\railo\webapps\www\sample_app\database
+	mysql --user=root --password=root_password_here < create_database.sql
+
 --------------------------------------
 
 */
