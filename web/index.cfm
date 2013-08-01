@@ -1,5 +1,7 @@
+<cftry>
 <cfsilent>
 <cfscript>
+request.error = '';	
 request.dsn = 'sample_app';
 request.lMan = createObject("component", "com.LocationManager");
 request.rsStates = request.lMan.getStates();
@@ -16,5 +18,11 @@ if ( structKeyExists(request, 'rsStates') ) {
 
 </cfscript>
 </cfsilent>
+
+<cfcatch type="any">
+  <cfset request.error = 'An Error Occurred: '>
+</cfcatch>
+
+</cftry>
 
 <cfinclude template="view/state_select.cfm">
